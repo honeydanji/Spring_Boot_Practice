@@ -1,0 +1,45 @@
+package edu.pnu.dao;
+
+import java.sql.Connection;
+import java.util.List;
+
+import edu.pnu.domain.MemberVO;
+
+public class MemberDaoSqlimpl implements MemberInterface{
+
+	private String driver = "com.mysql.cj.jdbc.Driver";
+	private String url = "jdbc:mysql://localhost:3306/mission2";
+	private String username = "scott";
+	private String password = "tiger";
+
+	private Connection con;
+	
+	public MemberDaoSqlimpl() {
+		
+	}
+
+	@Override
+	public List<MemberVO> getMembers() {
+		return null;
+	}
+
+	@Override
+	public MemberVO getMember(Integer id) {
+		return null;
+	}
+
+	@Override
+	public MemberVO addMember(MemberVO member) {
+		return null;
+	}
+
+	@Override
+	public MemberVO updateMember(MemberVO member) {
+		return null;
+	}
+
+	@Override
+	public int deleteMember(Integer id) {
+		return 0;
+	}
+}

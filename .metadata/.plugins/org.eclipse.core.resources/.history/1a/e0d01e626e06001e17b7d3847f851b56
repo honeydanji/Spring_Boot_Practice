@@ -1,0 +1,75 @@
+package edu.pnu.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import edu.pnu.domain.Member;
+
+public class MemberDao {
+
+	private String driver = "com.mysql.cj.jdbc.Driver";
+	private String url = "jdbc:mysql://localhost:3306/mission2";
+	private String username = "scott";
+	private String password = "tiger";
+
+	private Connection con;
+
+	public MemberDao() {
+		try {
+			Class.forName(driver);
+			con = DriverManager.getConnection(url, username, password);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public Member getMember(Long id) throws Exception {
+		try {
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery(String.format("select * from member where id=%d", id));
+
+			rs.next();
+
+			Member m = Member.builder().id(rs.getLong("id")).pass(rs.getString("pass")).name(rs.getString("name"))
+					.regidate(rs.getDate("regidate")).build();
+			rs.close();
+			stmt.close();
+
+			return m;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	public List<Member> getMember() {
+		List<Member> mm = new ArrayList<>();
+		try {
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery(String.format("select * from member"));
+
+			while (rs.next()) {
+				Member m = Member.builder()
+							.id(rs.getLong("id"))
+							.pass(rs.getString("pass"))
+							.name(rs.getString("name"))
+							.regidate(rs.getDate("regidate"))
+							.build();
+				mm.add(m);
+			}
+
+			rs.close();
+			stmt.close();
+
+			return mm;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+}

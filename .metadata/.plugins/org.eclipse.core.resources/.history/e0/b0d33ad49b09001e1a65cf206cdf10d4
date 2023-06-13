@@ -1,0 +1,106 @@
+package edu.pnu.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import edu.pnu.domain.MemberVO;
+
+public class MemberDaoSqlimpl implements MemberInterface{
+
+	private String driver = "com.mysql.cj.jdbc.Driver";
+	private String url = "jdbc:mysql://localhost:3306/mission2";
+	private String username = "scott";
+	private String password = "tiger";
+
+	private Connection con;
+	
+	public MemberDaoSqlimpl() {
+		try {
+			Class.forName(driver);
+			con = DriverManager.getConnection(url, username, password);
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	// 데이터 전부 가져오기
+	public List<MemberVO> getMembers() {
+		List<MemberVO> mm = new ArrayList<>();
+		try {
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery(String.format("select * from member"));
+			
+			while(rs.next()) {
+				MemberVO m = MemberVO.builder()
+								.id(rs.getInt("id"))
+								.pass(rs.getString("pass"))
+								.name(rs.getString("name"))
+								.regidate(rs.getDate("regidate")).build();
+				mm.add(m);
+			}
+			return mm;
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	
+	// 데이터 id 조회해서 가져오기
+	@Override
+	public MemberVO getMember(Integer id) {
+		try {
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery(String.format("select * from member where id = %d", id));
+			
+			MemberVO m = MemberVO.builder()
+					.id(rs.getInt("id"))
+					.pass(rs.getString("pass"))
+					.name(rs.getString("name"))
+					.regidate(rs.getDate("regidate")).build();
+			
+			return m;
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	// 데이터 추가하기
+	@Override
+	public MemberVO addMember(MemberVO member) {
+		try {
+			Statement stmt = con.createStatement();
+			stmt.executeUpdate(String.format("insert into member (pass, name) values ('%s', '%s')", member.getPass(), member.getName()));
+			
+			ResultSet rs = stmt.executeQuery(String.format("select * from member where id = (select Max(id) from member)"));
+			
+			MemberVO m = MemberVO.builder()
+					.id(rs.getInt("id"))
+					.pass(rs.getString("pass"))
+					.name(rs.getString("name"))
+					.regidate(rs.getDate("regidate")).build();
+			
+			return m;		
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	// 데이터 수정하기
+	@Override
+	public MemberVO updateMember(MemberVO member) {
+		return null;
+	}
+
+	@Override
+	public int deleteMember(Integer id) {
+		return 0;
+	}
+}

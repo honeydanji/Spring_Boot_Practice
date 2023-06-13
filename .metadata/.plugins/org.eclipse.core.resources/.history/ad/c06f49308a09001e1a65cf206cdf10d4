@@ -1,0 +1,59 @@
+package edu.pnu.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import edu.pnu.domain.MemberVO;
+
+public class MemberDaoListimpl implements MemberInterface{
+	List<MemberVO> list = new ArrayList<>();
+	
+	@Override
+	// 데이터 추가
+	public MemberVO addMember(MemberVO member) {
+		MemberVO m = new MemberVO();
+		list.add(member);
+		return m;
+	}
+	
+	@Override
+	// 특정 데이터 가져오기
+	public MemberVO getMember(Integer id) {
+		MemberVO m = new MemberVO();
+		m = list.get(id - 1); 
+		return m;
+	}
+	
+	@Override
+	// 데이터 전부 가져오기
+	public List<MemberVO> getMembers() {
+		return list;
+	}
+	
+	@Override
+	// 데이터 
+	public MemberVO updateMember(MemberVO member) {
+		MemberVO m = new MemberVO();
+		for(int i = 0; i < list.size(); i++) {
+			if(list.get(i).getId() == member.getId()) {
+				list.add(i, member);
+				m = list.get(i);
+				break;
+			}
+		}
+		return m;
+	}
+	
+	@Override
+	// 데이터 삭제하기
+	public int deleteMember(Integer id) {
+		for(int i = 0; i < list.size(); i++) {
+			if(list.get(i) != null) {
+				list.remove(i);
+				break;
+			}
+		}
+		return 0;
+	}
+	
+}

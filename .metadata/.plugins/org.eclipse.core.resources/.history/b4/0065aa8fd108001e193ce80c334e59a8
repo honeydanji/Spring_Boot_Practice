@@ -1,0 +1,8 @@
+package edu.pnu.dao;
+
+import java.util.List;
+
+public interface MemberInterface {
+	
+	List<MemberVO> getMembers();
+}

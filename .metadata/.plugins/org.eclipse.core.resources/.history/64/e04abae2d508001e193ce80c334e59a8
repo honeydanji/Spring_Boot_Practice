@@ -1,0 +1,22 @@
+package edu.pnu.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import edu.pnu.dao.MemberDaoListimpl;
+import edu.pnu.dao.MemberInterface;
+
+public class MemberVOService {
+
+	@Autowired
+	MemberInterface dao;
+	
+	public MemberVOService() {
+		dao = new MemberDaoListimpl();
+	}
+	
+	public MemberVO addMember(MemberVO member) {
+		dao.addMember(member);
+	}
+
+	
+}

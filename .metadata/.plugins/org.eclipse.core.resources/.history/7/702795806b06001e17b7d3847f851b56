@@ -1,0 +1,23 @@
+package edu.pnu.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import edu.pnu.dao.MemberDao;
+import edu.pnu.domain.Member;
+
+@Service
+public class MemberService {
+	
+	@Autowired	
+	private MemberDao memberDao;
+	
+	public MemberService() {
+		memberDao = new MemberDao();
+	}
+	
+	public Member getMember(Long id) throws Exception {
+		return memberDao.getMember(id);
+	}
+	
+}

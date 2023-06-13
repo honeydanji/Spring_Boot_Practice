@@ -1,0 +1,30 @@
+package edu.pnu.dao;
+
+import java.sql.Connection;
+import java.util.List;
+
+import edu.pnu.domain.Member;
+
+public class MemberDao {
+	
+	private String driver = "com.mysql.cj.jdbc.Driver";
+	private String url = "jdbc:mysql://localhost:3306/mission2";
+	
+	private Connection con;
+
+	// Database Connection 설정 (con)
+	public MemberDao() {
+	}
+	
+	public void insertMember(Member m) {
+		
+	}
+	
+	public List<Member> getMembers(){
+		return null;
+	}
+	
+	public Member getMember(Long id) {
+		return null;
+	}
+}

@@ -1,0 +1,13 @@
+package edu.pnu.service;
+
+import edu.pnu.domain.Member;
+
+public class MemberService {
+	
+	private MemberDao memberDao;
+	
+	public Member getMember(Long id) {
+		return null;
+	}
+	
+}

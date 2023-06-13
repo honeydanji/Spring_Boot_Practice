@@ -1,0 +1,35 @@
+package edu.pnu;
+
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.test.web.servlet.MockMvc;
+
+//@SpringBootTest
+@WebMvcTest 
+// 테스트 주석, 컨트롤러 계층을 테스트하는 데 사용된다.
+// 컨트롤러 계층은 무엇이 있을까?
+class Chapter03ApplicationTests {
+
+	@Autowired
+	// MockMvc의 인스턴스를 테스트 클래스에 자동으로 주입하는데 사용. == 테스트 클래스에 종속성 주입
+	// 종속성 주입 : 종속성(인스턴스)이 클래스 내에서 생성되는 것이 아니고 외부에서 제공하는 패턴.
+	// MockMvc는 @Autowired를 사용하여 클래스에 자동으로 주입되는 종속성이다.
+	// 종속성을 내부적으로 인스터스화하거나 관리할 필요가 없다는 장점이 있다. 
+	MockMvc mockMvc;
+	
+	@Test
+	// 아래 메소드를 테스트 케이스로 표시하는데 사용된다.
+	void contextLoads() throws Exception {
+		mockMvc.perform(get("/hello").param("name","둘리"))
+			.andExpect(status().isOk())
+			//.andExpect(content().string("Hello":"둘리"))
+			.andDo(print());
+	}
+
+}
+// 애플리케이션 컨텍스트 : Spring 애클리케이션의 모든 bean을 보유하고 관리하는 컨테이너이다.
