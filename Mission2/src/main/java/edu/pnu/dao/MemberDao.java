@@ -19,8 +19,7 @@ public class MemberDao {
         try {
             // JDBC 드라이버 로드
             Class.forName("org.h2.Driver");
-            
-            con = DriverManager.getConnection("jdbc:h2:tcp://localhost/~/springboot", "sa", "");
+            con = DriverManager.getConnection("jdbc:h2:tcp://localhost/~/mission2", "scott", "tiger");
         }
         catch (Exception e) {            
             e.printStackTrace();

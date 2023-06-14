@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="ResetTargetSelectionDialog.resetType" value="MIXED"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\03Workspaces_STS4\.git"/>
 	<list key="EGit.KnownHosts">
 		<item value="bitbucket.org"/>
 		<item value="git.eclipse.org"/>
