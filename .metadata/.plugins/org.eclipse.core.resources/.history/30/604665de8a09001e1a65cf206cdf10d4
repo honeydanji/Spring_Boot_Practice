@@ -1,8 +1,0 @@
-package edu.pnu.dao;
-
-public class MemberDaoSqlimpl {
-
-	public MemberDaoSqlimpl() {
-		// TODO Auto-generated constructor stub
-	}
-}

@@ -78,7 +78,9 @@ public class MemberDaoSqlimpl implements MemberInterface{
 			Statement stmt = con.createStatement();
 			stmt.executeUpdate(String.format("insert into member (pass, name) values ('%s', '%s')", member.getPass(), member.getName()));
 			
-			ResultSet rs = stmt.executeQuery(String.format("select * from member where id = (select Max(id) from member)"));
+			// alt + shift + L : 지역변수를 따로 만들어준다.
+			String string = "select * from member where id = (select Max(id) from member)";
+			ResultSet rs = stmt.executeQuery(String.format(string));
 			
 			// 쿼리를 실행하고 값을 찍으면 처음에는 null이 출력 된다.
 			// rs.next() : 다음 값을 가리키는 메소드

@@ -1,8 +1,0 @@
-package edu.pnu.dao;
-
-public class MemberDaoSqlimpl implements MemberInterface{
-
-	public MemberDaoSqlimpl() {
-		
-	}
-}

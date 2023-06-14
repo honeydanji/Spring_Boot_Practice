@@ -1,8 +1,0 @@
-package edu.pnu.service;
-
-import edu.pnu.dao.MemberInterface;
-
-public class MemberVOService {
-
-	MemberInterface dao;
-}
