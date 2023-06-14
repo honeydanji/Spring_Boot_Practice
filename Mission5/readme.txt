@@ -3,3 +3,7 @@
 2. LogDaoH2Impl2.java : H2 데이터베이스 접근 객체
 
 3. LogDaoFileImpl2.java : 파일 접근 객체
+
+4. @Autowired 연습 
+
+5. DataSource객체를 이용한  

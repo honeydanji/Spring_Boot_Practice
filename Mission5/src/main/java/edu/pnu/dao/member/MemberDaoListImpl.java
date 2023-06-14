@@ -6,17 +6,24 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import edu.pnu.domain.MemberVO;
 
 public class MemberDaoListImpl implements MemberInterface {
 	private List<MemberVO> list;
 	
+	@Autowired
+	MemberDaoListImpl m;
+	
+	@Autowired // 종속성 주입 >> 다른 클래스에서 MemberDaoListImpl() 생성자를 만들지 않고 참조변수만 생성하면 사용이 가능하다. 이걸 종속성을 주입한다고 할 수 있다.
 	public MemberDaoListImpl() {
 		list = new ArrayList<>();
 		for (int i = 1 ; i < 21 ; i++) {
 			list.add(new MemberVO(i, "1234", "이름"+i, new Date()));
 		}	
 	}
+	
 	
 	@Override
 	public Map<String, Object> getMembers() {
