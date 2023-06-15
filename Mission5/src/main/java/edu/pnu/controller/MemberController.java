@@ -18,7 +18,7 @@ import edu.pnu.service.MemberService;
 
 @RestController
 public class MemberController {
-
+	
 	@Autowired
 	private MemberService memberService;
 	
