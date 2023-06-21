@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=Chapter05/C:\/Users\/user\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.7.12\/spring-data-jpa-2.7.12.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.7.12=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1686621042028"/>
+    <typeInfo handle="=Chapter05/C:\/Users\/user\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.7.12\/spring-data-commons-2.7.12.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.7.12=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.querydsl(QuerydslPredicateExecutor.class[QuerydslPredicateExecutor" modifiers="1537" timestamp="1686621042337"/>
+    <typeInfo handle="=Chapter05/C:\/Users\/user\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.7.12\/spring-data-commons-2.7.12.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.7.12=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.querydsl.binding(QuerydslBinderCustomizer.class[QuerydslBinderCustomizer" modifiers="1537" timestamp="1686621042337"/>
+</typeInfoHistroy>

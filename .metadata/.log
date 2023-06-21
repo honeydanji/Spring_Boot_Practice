@@ -879,3 +879,1380 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 20
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-20 12:03:08.515
 !MESSAGE Classpath changed for project: Chapter05
+!SESSION 2023-06-21 09:53:03.755 -----------------------------------------------
+eclipse.buildId=4.18.1.202305021758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-21 09:53:04.761
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-06-21 09:53:13.712
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-21 09:53:13.712
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:16.096
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-21 09:53:16.121
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9616
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-21 09:53:16.934
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.053
+!MESSAGE Boot project ADDED: Chapter01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.053
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.055
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.056
+!MESSAGE Boot project ADDED: Chapter02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.057
+!MESSAGE Boot project ADDED: Chapter03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.058
+!MESSAGE Boot project ADDED: Chapter05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.068
+!MESSAGE Boot project ADDED: Chapter051
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.079
+!MESSAGE Boot project ADDED: Mission1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.085
+!MESSAGE Boot project ADDED: Mission2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.092
+!MESSAGE Boot project ADDED: Mission21
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.098
+!MESSAGE Boot project ADDED: Mission3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.104
+!MESSAGE Boot project ADDED: Mission31
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.112
+!MESSAGE Boot project ADDED: Mission4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.121
+!MESSAGE Boot project ADDED: Mission4_Practice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 09:53:17.128
+!MESSAGE Boot project ADDED: Mission5
+
+!ENTRY org.eclipse.jface 2 0 2023-06-21 09:57:11.542
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-21 09:57:11.542
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 14:27:25.486
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 14:27:25.487
+!MESSAGE Boot project ADDED: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 14:27:26.421
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 14:31:35.552
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 14:31:35.616
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 14:31:36.956
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-06-21 14:35:40.240
+!MESSAGE Could not get trigger characters due to timeout after 50 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:280)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:316)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1248)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:834)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4865)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-06-21 14:35:40.292
+!MESSAGE Could not get trigger characters due to timeout after 50 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getFuture(LSContentAssistProcessor.java:280)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:316)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1248)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:374)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1117)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1594)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4865)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4743)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-06-21 14:57:16.263
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-06-21 14:57:16.263
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE Software being installed: Dali Java Persistence Tools - JPA Support 3.7.0.v202305092307 (org.eclipse.jpt.jpa.feature.feature.group 3.7.0.v202305092307)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE Software currently installed: Spring Tool Suite 4 4.18.1.202305021758 (org.springframework.boot.ide.branding.sts4 4.18.1.202305021758)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.263
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE Eclipse UI 3.202.0.v20230214-1401 (org.eclipse.ui 3.202.0.v20230214-1401)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE Eclipse UI 3.203.100.v20230417-1307 (org.eclipse.ui 3.203.100.v20230417-1307)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.263
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE From: Dali Java Persistence Tools - JPA Support 3.7.0.v202305092307 (org.eclipse.jpt.jpa.feature.feature.group 3.7.0.v202305092307)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jpt.jpa.ui [3.6.100.v202305092307,3.6.100.v202305092307]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.263
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE From: Dali Java Persistence Tools - JPA UI 3.6.100.v202305092307 (org.eclipse.jpt.jpa.ui 3.6.100.v202305092307)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE To: osgi.bundle; org.eclipse.wst.xml.ui [1.1.300,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.263
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE From: Eclipse Platform 4.27.0.v20230302-0300 (org.eclipse.platform.feature.group 4.27.0.v20230302-0300)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.rcp.feature.group [4.27.0.v20230302-0300,4.27.0.v20230302-0300]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.263
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE From: Eclipse RCP 4.27.0.v20230302-0300 (org.eclipse.rcp.feature.group 4.27.0.v20230302-0300)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ui [3.202.0.v20230214-1401,3.202.0.v20230214-1401]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.263
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE From: Eclipse Base UI extensions 1.2.401.v202304222306 (org.eclipse.wst.common.ui 1.2.401.v202304222306)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE To: osgi.bundle; org.eclipse.ui [3.203.0,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.263
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE From: Eclipse XML Editors and Tools 1.2.700.v202305221615 (org.eclipse.wst.xml.ui 1.2.700.v202305221615)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE To: osgi.bundle; org.eclipse.wst.common.ui [1.1.500,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.263
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE From: Spring Tool Suite 4 4.18.1.202305021758 (org.springframework.boot.ide.branding.sts4 4.18.1.202305021758)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.263
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.platform.feature.group [4.27.0.v20230302-0300,4.27.0.v20230302-0300]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-06-21 14:57:16.268
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-06-21 14:57:16.268
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE Software being installed: Dali Java Persistence Tools - JPA Support 3.7.0.v202305092307 (org.eclipse.jpt.jpa.feature.feature.group 3.7.0.v202305092307)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE Software currently installed: Spring Tool Suite 4 4.18.1.202305021758 (org.springframework.boot.ide.branding.sts4 4.18.1.202305021758)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.268
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE Eclipse UI 3.202.0.v20230214-1401 (org.eclipse.ui 3.202.0.v20230214-1401)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE Eclipse UI 3.203.100.v20230417-1307 (org.eclipse.ui 3.203.100.v20230417-1307)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE From: Dali Java Persistence Tools - JPA Support 3.7.0.v202305092307 (org.eclipse.jpt.jpa.feature.feature.group 3.7.0.v202305092307)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jpt.jpa.ui [3.6.100.v202305092307,3.6.100.v202305092307]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE From: Dali Java Persistence Tools - JPA UI 3.6.100.v202305092307 (org.eclipse.jpt.jpa.ui 3.6.100.v202305092307)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE To: osgi.bundle; org.eclipse.wst.xml.ui [1.1.300,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE From: Eclipse Platform 4.27.0.v20230302-0300 (org.eclipse.platform.feature.group 4.27.0.v20230302-0300)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.rcp.feature.group [4.27.0.v20230302-0300,4.27.0.v20230302-0300]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE From: Eclipse RCP 4.27.0.v20230302-0300 (org.eclipse.rcp.feature.group 4.27.0.v20230302-0300)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ui [3.202.0.v20230214-1401,3.202.0.v20230214-1401]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE From: Eclipse Base UI extensions 1.2.401.v202304222306 (org.eclipse.wst.common.ui 1.2.401.v202304222306)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE To: osgi.bundle; org.eclipse.ui [3.203.0,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE From: Eclipse XML Editors and Tools 1.2.700.v202305221615 (org.eclipse.wst.xml.ui 1.2.700.v202305221615)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE To: osgi.bundle; org.eclipse.wst.common.ui [1.1.500,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.268
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE From: Spring Tool Suite 4 4.18.1.202305021758 (org.springframework.boot.ide.branding.sts4 4.18.1.202305021758)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.268
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.platform.feature.group [4.27.0.v20230302-0300,4.27.0.v20230302-0300]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-06-21 14:57:16.279
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-06-21 14:57:16.279
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE Software being installed: Dali Java Persistence Tools - JPA Support 3.7.0.v202305092307 (org.eclipse.jpt.jpa.feature.feature.group 3.7.0.v202305092307)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE Software currently installed: Spring Tool Suite 4 4.18.1.202305021758 (org.springframework.boot.ide.branding.sts4 4.18.1.202305021758)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.279
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE Eclipse UI 3.202.0.v20230214-1401 (org.eclipse.ui 3.202.0.v20230214-1401)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE Eclipse UI 3.203.100.v20230417-1307 (org.eclipse.ui 3.203.100.v20230417-1307)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.279
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE From: Dali Java Persistence Tools - JPA Support 3.7.0.v202305092307 (org.eclipse.jpt.jpa.feature.feature.group 3.7.0.v202305092307)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jpt.jpa.ui [3.6.100.v202305092307,3.6.100.v202305092307]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.279
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE From: Dali Java Persistence Tools - JPA UI 3.6.100.v202305092307 (org.eclipse.jpt.jpa.ui 3.6.100.v202305092307)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE To: osgi.bundle; org.eclipse.wst.xml.ui [1.1.300,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.279
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE From: Eclipse Platform 4.27.0.v20230302-0300 (org.eclipse.platform.feature.group 4.27.0.v20230302-0300)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.rcp.feature.group [4.27.0.v20230302-0300,4.27.0.v20230302-0300]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.279
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE From: Eclipse RCP 4.27.0.v20230302-0300 (org.eclipse.rcp.feature.group 4.27.0.v20230302-0300)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ui [3.202.0.v20230214-1401,3.202.0.v20230214-1401]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.279
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE From: Eclipse Base UI extensions 1.2.401.v202304222306 (org.eclipse.wst.common.ui 1.2.401.v202304222306)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE To: osgi.bundle; org.eclipse.ui [3.203.0,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.279
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE From: Eclipse XML Editors and Tools 1.2.700.v202305221615 (org.eclipse.wst.xml.ui 1.2.700.v202305221615)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE To: osgi.bundle; org.eclipse.wst.common.ui [1.1.500,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.279
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE From: Spring Tool Suite 4 4.18.1.202305021758 (org.springframework.boot.ide.branding.sts4 4.18.1.202305021758)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.279
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.platform.feature.group [4.27.0.v20230302-0300,4.27.0.v20230302-0300]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-06-21 14:57:16.279
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-06-21 14:57:16.280
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE Software being installed: Dali Java Persistence Tools - JPA Support 3.7.0.v202305092307 (org.eclipse.jpt.jpa.feature.feature.group 3.7.0.v202305092307)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE Software currently installed: Spring Tool Suite 4 4.18.1.202305021758 (org.springframework.boot.ide.branding.sts4 4.18.1.202305021758)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.280
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE Eclipse UI 3.202.0.v20230214-1401 (org.eclipse.ui 3.202.0.v20230214-1401)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE Eclipse UI 3.203.100.v20230417-1307 (org.eclipse.ui 3.203.100.v20230417-1307)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.280
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE From: Dali Java Persistence Tools - JPA Support 3.7.0.v202305092307 (org.eclipse.jpt.jpa.feature.feature.group 3.7.0.v202305092307)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jpt.jpa.ui [3.6.100.v202305092307,3.6.100.v202305092307]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.280
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE From: Dali Java Persistence Tools - JPA UI 3.6.100.v202305092307 (org.eclipse.jpt.jpa.ui 3.6.100.v202305092307)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE To: osgi.bundle; org.eclipse.wst.xml.ui [1.1.300,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.280
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE From: Eclipse Platform 4.27.0.v20230302-0300 (org.eclipse.platform.feature.group 4.27.0.v20230302-0300)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.rcp.feature.group [4.27.0.v20230302-0300,4.27.0.v20230302-0300]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.280
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE From: Eclipse RCP 4.27.0.v20230302-0300 (org.eclipse.rcp.feature.group 4.27.0.v20230302-0300)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.ui [3.202.0.v20230214-1401,3.202.0.v20230214-1401]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.280
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE From: Eclipse Base UI extensions 1.2.401.v202304222306 (org.eclipse.wst.common.ui 1.2.401.v202304222306)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE To: osgi.bundle; org.eclipse.ui [3.203.0,4.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.280
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE From: Eclipse XML Editors and Tools 1.2.700.v202305221615 (org.eclipse.wst.xml.ui 1.2.700.v202305221615)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE To: osgi.bundle; org.eclipse.wst.common.ui [1.1.500,2.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-06-21 14:57:16.280
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE From: Spring Tool Suite 4 4.18.1.202305021758 (org.springframework.boot.ide.branding.sts4 4.18.1.202305021758)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-06-21 14:57:16.280
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.platform.feature.group [4.27.0.v20230302-0300,4.27.0.v20230302-0300]
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2023-06-21 15:03:42.733
+!MESSAGE Exception saving preferences to: C:/01DevelopKits/sts-4.18.1.RELEASE/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs.bak -> C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2023-06-21 15:03:42.734
+!MESSAGE Exception saving profile preferences
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: C:/01DevelopKits/sts-4.18.1.RELEASE/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:300)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs.bak -> C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	... 4 more
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2023-06-21 15:03:43.018
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\user\AppData\Local\Temp\DefaultProfile_dccad596-2d5e-4e5e-abcd-c7dfbdcd833b
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2023-06-21 15:03:43.281
+!MESSAGE Exception saving preferences to: C:/01DevelopKits/sts-4.18.1.RELEASE/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs.bak -> C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2023-06-21 15:03:43.282
+!MESSAGE Exception saving profile preferences
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: C:/01DevelopKits/sts-4.18.1.RELEASE/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:300)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs.bak -> C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	... 4 more
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2023-06-21 15:03:43.285
+!MESSAGE Exception saving preferences to: C:/01DevelopKits/sts-4.18.1.RELEASE/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/.settings/org.eclipse.equinox.p2.artifact.repository.prefs.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.artifact.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:392)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2023-06-21 15:03:43.285
+!MESSAGE Exception saving profile preferences
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: C:/01DevelopKits/sts-4.18.1.RELEASE/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.data/.settings/org.eclipse.equinox.p2.artifact.repository.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:300)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.AccessDeniedException: C:\01DevelopKits\sts-4.18.1.RELEASE\p2\org.eclipse.equinox.p2.engine\profileRegistry\DefaultProfile.profile\.data\.settings\org.eclipse.equinox.p2.artifact.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:392)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	... 4 more
+!SESSION 2023-06-21 15:03:54.394 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/03Workspaces_STS4/ -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-21 15:03:58.858
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-06-21 15:04:06.723
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-21 15:04:06.723
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-21 15:04:09.622
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\01DevelopKits\sts-4.18.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\01DevelopKits\sts-4.18.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\01DevelopKits\sts-4.18.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\01DevelopKits\sts-4.18.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/03Workspaces_STS4/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1687327449622
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:09.623
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-21 15:04:09.637
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11392
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-06-21 15:04:09.665
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-21 15:04:10.480
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-21 15:04:10.489
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" id and the "Preference Spy" label.It points to the non available "bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-21 15:04:10.492
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.spy.bundle.BundleSpyPart" id and the "Bundle Spy" label.It points to the non available "bundleclass://org.eclipse.pde.spy.bundle/org.eclipse.pde.spy.bundle.BundleSpyPart" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-21 15:04:10.494
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.spy.context.ContextSpyPart" id and the "Context Spy" label.It points to the non available "bundleclass://org.eclipse.pde.spy.context/org.eclipse.pde.spy.context.ContextSpyPart" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-21 15:04:10.496
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.spy.css.CssSpyPart" id and the "CSS Spy" label.It points to the non available "bundleclass://org.eclipse.pde.spy.css/org.eclipse.pde.spy.css.CssSpyPart" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-21 15:04:10.498
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.spy.css.CSSScratchPadPart" id and the "CSS Scratch Pad" label.It points to the non available "bundleclass://org.eclipse.pde.spy.css/org.eclipse.pde.spy.css.CSSScratchPadPart" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-21 15:04:10.500
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.spy.event.internal.ui.EventSpyPart" id and the "Event Spy" label.It points to the non available "bundleclass://org.eclipse.pde.spy.event/org.eclipse.pde.spy.event.internal.ui.EventSpyPart" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-21 15:04:10.502
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.pde.spy.model.ModelSpyPart" id and the "Model Spy" label.It points to the non available "bundleclass://org.eclipse.pde.spy.model/org.eclipse.pde.spy.model.ModelSpyPart" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-06-21 15:04:10.521
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.views.ResourceNavigator" id and the "Navigator (Deprecated)" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.612
+!MESSAGE Boot project ADDED: Chapter01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.613
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.614
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.615
+!MESSAGE Boot project ADDED: Chapter02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.615
+!MESSAGE Boot project ADDED: Chapter03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.616
+!MESSAGE Boot project ADDED: Chapter05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.616
+!MESSAGE Boot project ADDED: Chapter051
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.617
+!MESSAGE Boot project ADDED: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.799
+!MESSAGE Classpath changed for project: Chapter05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.877
+!MESSAGE Boot project ADDED: Mission1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.877
+!MESSAGE Boot project ADDED: Mission2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.878
+!MESSAGE Boot project ADDED: Mission21
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.878
+!MESSAGE Boot project ADDED: Mission3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.878
+!MESSAGE Boot project ADDED: Mission31
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.879
+!MESSAGE Boot project ADDED: Mission4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.879
+!MESSAGE Boot project ADDED: Mission4_Practice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:04:10.880
+!MESSAGE Boot project ADDED: Mission5
+
+!ENTRY org.eclipse.jface 2 0 2023-06-21 15:05:34.742
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-21 15:05:34.742
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2023-06-21 15:05:34.762
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-21 15:10:09.846
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:972)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:278)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:195)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:68)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:92)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:177)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:99)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-21 15:10:09.846
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:35)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:972)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:278)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:195)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:68)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:92)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:177)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:99)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2023-06-21 15:12:15.953
+!MESSAGE Problems occurred while performing provisioning operation: operation plan must be resolved
+!STACK 0
+java.lang.IllegalStateException: operation plan must be resolved
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.toCurrentJREOperation(ProvUI.java:338)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.toCompabilityWithCurrentJREProvisioningPlan(ProvUI.java:325)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.lambda$5(MarketplaceWizard.java:876)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SESSION 2023-06-21 15:17:51.852 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/03Workspaces_STS4/ -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-21 15:17:54.563
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-06-21 15:17:57.347
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-21 15:17:57.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-21 15:17:59.596
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\01DevelopKits\sts-4.18.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin\javaw.exe
+-cp
+C:\01DevelopKits\sts-4.18.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes;C:\01DevelopKits\sts-4.18.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\01DevelopKits\sts-4.18.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.47.0.202306150731\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/03Workspaces_STS4/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1687328279595
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:17:59.597
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-21 15:17:59.608
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3848
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-06-21 15:17:59.640
+!MESSAGE org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+!STACK 0
+java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protocol.spring.SpringModelLanguageServer cannot be found by org.springframework.tooling.boot.ls_1.47.0.202306150731
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.getServerInterface(LanguageServersRegistry.java:196)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:291)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-21 15:18:00.251
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.358
+!MESSAGE Boot project ADDED: Chapter01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.360
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.362
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.367
+!MESSAGE Boot project ADDED: Chapter02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.374
+!MESSAGE Boot project ADDED: Chapter03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.579
+!MESSAGE Boot project ADDED: Chapter05
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.580
+!MESSAGE Boot project ADDED: Chapter051
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.580
+!MESSAGE Boot project ADDED: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.581
+!MESSAGE Boot project ADDED: Mission1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.581
+!MESSAGE Boot project ADDED: Mission2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.581
+!MESSAGE Boot project ADDED: Mission21
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.582
+!MESSAGE Boot project ADDED: Mission3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.582
+!MESSAGE Boot project ADDED: Mission31
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.583
+!MESSAGE Boot project ADDED: Mission4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.583
+!MESSAGE Boot project ADDED: Mission4_Practice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:18:00.583
+!MESSAGE Boot project ADDED: Mission5
+
+!ENTRY org.eclipse.jface 2 0 2023-06-21 15:20:18.080
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-21 15:20:18.080
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:22:32.019
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:22:32.019
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:22:32.020
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:22:32.020
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:22:32.025
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:22:32.028
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-06-21 15:33:25.588
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:33:34.417
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:33:34.432
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:33:34.434
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:33:34.435
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:33:34.435
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:33:34.440
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:33:34.443
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:33:38.991
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:35:07.004
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:35:37.153
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:35:39.273
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:47:21.644
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:47:32.950
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:50:03.206
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:50:03.221
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:50:03.221
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:50:03.222
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:50:03.222
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:50:03.227
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:50:03.230
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:50:07.464
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:51:05.078
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:53:56.634
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:53:56.647
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:53:56.648
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:53:56.648
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:53:56.649
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:53:56.653
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 15:53:56.656
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:54:10.672
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:54:26.855
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:55:53.982
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:56:04.629
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 15:56:21.485
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:00:06.257
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:00:06.271
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:00:06.272
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:00:06.273
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:00:06.273
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:00:06.278
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:00:06.280
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:00:12.339
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:00:32.856
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:28:22.781
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:30:03.231
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:53:42.441
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:53:52.663
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:53:52.677
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:53:52.677
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:53:52.678
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:53:52.678
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:53:52.683
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:53:52.685
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:53:54.801
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:55:20.290
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:55:20.303
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:55:20.303
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:55:20.304
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:55:20.304
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:55:20.309
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 16:55:20.312
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:56:06.230
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:57:02.816
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:57:08.405
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:59:30.753
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 16:59:41.054
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:00:18.738
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:00:41.091
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:01:02.272
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:05:31.199
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:05:59.501
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:06:46.927
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:07:08.119
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:08:30.909
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:09:22.516
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:09:22.528
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:09:22.529
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:09:22.529
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:09:22.530
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:09:22.535
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:09:22.538
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:09:31.373
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:09:44.697
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:10:06.985
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:10:27.555
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:10:34.515
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:10:40.916
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:10:47.539
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:10:48.664
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:10:56.981
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:10:56.994
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:10:56.994
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:10:56.995
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:10:56.995
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:10:57.000
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:10:57.002
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:10:59.085
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:12:09.430
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:18:12.451
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:18:42.095
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:19:22.510
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:22:00.842
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:35:01.292
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:35:41.072
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:36:30.126
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:36:35.159
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:44:00.126
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:44:00.139
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:44:00.140
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:44:00.140
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:44:00.141
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:44:00.145
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-06-21 17:44:00.147
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:44:53.844
+!MESSAGE Classpath changed for project: Chapter06
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-06-21 17:47:45.590
+!MESSAGE Classpath changed for project: Chapter06
