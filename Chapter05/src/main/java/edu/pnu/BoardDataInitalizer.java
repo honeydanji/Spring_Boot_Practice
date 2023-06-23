@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import edu.pnu.domain.Board;
 import edu.pnu.persistence.BoardRepository;
 
-@Component
+//@Component // 자동으로 감지해서 실행시킨다.
 public class BoardDataInitalizer implements ApplicationRunner {
 
 	@Autowired
