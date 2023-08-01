@@ -13,6 +13,8 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+		<list key="rootDirectory">
+		</list>
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">

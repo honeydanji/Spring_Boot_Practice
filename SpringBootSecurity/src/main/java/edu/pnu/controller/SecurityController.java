@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class SecurityController {
 
-	@GetMapping({"/", "/index"})
-	public String index() {
-		System.out.println("index 요청입니다.");
-		return "index";
-	}
+//	@GetMapping({"/", "/index"})
+//	public String index() {
+//		System.out.println("index 요청입니다.");
+//		return "index";
+//	}
 	
 	@GetMapping("/member")
 	public void forMember() {
