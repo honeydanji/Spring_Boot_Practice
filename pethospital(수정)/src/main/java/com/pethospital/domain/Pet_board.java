@@ -29,13 +29,13 @@ public class Pet_board {
     @Column(name="user_id")
     private String userId;
     
-    private String nickname;
-    private String title;
-    private String content;
-    private String imagefile;
+    private String nickname; 	// 게시글 닉네임
+    private String title; 		// 게시글 제목
+    private String content; 	// 게시글 내용
+    private String imagefile; 	// 이미지파일 (여러개)
     private Timestamp regdate;
     private Timestamp updatedate;
     private Timestamp deletedate;
-    private int likes;
-    private int views;
+    private int likes; 			// 좋아요
+    private int views; 			// 조회수
 }

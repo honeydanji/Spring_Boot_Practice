@@ -20,12 +20,6 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Boot Actuator: Provides production-ready features to help monitor and manage your application -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
         <!-- Spring Boot Data JPA: Starter for using Spring Data JPA with Hibernate -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -52,14 +46,7 @@
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
-
-        <!-- Spring Boot Configuration Processor: Generate metadata for @ConfigurationProperties -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-
+        
         <!-- Lombok: Simplifies Java code by providing annotations to generate boilerplate code -->
         <dependency>
             <groupId>org.projectlombok</groupId>
