@@ -5,6 +5,8 @@ import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -33,28 +35,29 @@ public class Pet_member {
     @Column(nullable = false) // 필수
     private String name;
     
-    @Column(nullable = false, unique = true) // 필수 , 중복 x
-    private String nickname;
-    
     @Column(name = "user_id", nullable = false, unique = true) // 필수, 중복 x
     private String userId;		// 아이디
     
-    //@JsonIgnore // 데이터 넘어올 때 패스워드가리기
+    @JsonIgnore // 데이터 넘어올 때 패스워드가리기
     @Column(nullable = false)
     private String password;	// 비밀번호
+    
+    @Column(nullable = false, unique = true) // 필수 , 중복 x
+    private String nickname;
     
     @Column(nullable = false)
     private String email;		// 이메일
     
+    @Column(nullable = false)
+    private String address;		// 주소
+    
     @Column(name = "mobile_phone")
     private String mobilePhone;	// 휴대폰 번호
-    
-    private String address;		// 주소
     
     private String role;		// 권한
     
     public Collection<? extends GrantedAuthority> getAuthorities(){
-        return AuthorityUtils.createAuthorityList(role);
-    }
+		return AuthorityUtils.createAuthorityList(role);
+	}
     
 }

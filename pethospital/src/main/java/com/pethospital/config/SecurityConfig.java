@@ -8,6 +8,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 import com.pethospital.config.auth.JWTAuthorizationFilter;
@@ -24,10 +25,6 @@ public class SecurityConfig {
 	@Autowired
 	private AuthenticationConfiguration authConfig;
 	
-//	@Autowired
-//	private SecurityUserDetailsService securityUserDetailsService;	
-	// 제이슨에서 PassWord를 못가져오기 때문에 해당 서비스클래스에서 PassWord를 가져와야 한다. 
-	
 	@Bean // 리턴값을 IOC컨테이너에 올린다. 즉 외부 클래스에서 사용이 가능하다.
 	public BCryptPasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
@@ -42,7 +39,7 @@ public class SecurityConfig {
 		http.authorizeHttpRequests(security->{
 	        		//.requestMatchers("/api/**").permitAll()  	// 비회원 접근 가능
 	        		//.requestMatchers("/api/login").permitAll()		// 비회원 접근 가능
-			security.requestMatchers("/board/**").hasRole("MEMBER") // 회원만 접근 가능
+			security.requestMatchers("/api/board").authenticated() // 회원만 접근 가능
 	        		.anyRequest().permitAll();
 		});
 		
@@ -58,9 +55,6 @@ public class SecurityConfig {
 		// 시큐리티 세션을 만들지 않았기 때문에 필터를 쓰는 건가???
 		//// 필터 1
 		// http.addFilter(new JWTAuthenticationFilter()); 
-		
-		//JWTAuthenticationFilter jwtAuthenticationFilter = new JWTAuthenticationFilter(authConfig.getAuthenticationManager(), securityUserDetailsService);
-		
 		//// 필터 2
 		http.addFilter(new JWTAuthenticationFilter(authConfig.getAuthenticationManager()));
 		http.addFilter(new JWTAuthorizationFilter(authConfig.getAuthenticationManager(), petMemberRepository));
